@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "remove-premium-sticker-bot"
+version = "0.1.0"
+description = ""
+authors = ["FrozenYogurtPuff <frozenyogurtpuff@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-telegram-bot = { git = "https://github.com/python-telegram-bot/python-telegram-bot.git", branch = "api_6.1" }
+environs = "*"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
